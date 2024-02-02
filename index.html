@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Challenge</title>
+</head>
+<body>
+
+    <header>
+        <a href="https://wesley-fs.github.io/"><strong>W</strong></a>
+    </header>
+    <main class = "maeConteudo">
+        <section class = "conteudo">
+            <textarea id="textoInput"style="resize: none" placeholder="Digite seu texto"></textarea>
+            
+            <div class ="btn">
+                <button onclick="criptografia()" class = "botao">Criptografar</button>
+                <button onclick="decriptografia()"class = "botao2" >Descriptografar</button>
+            </div>    
+        </section>
+        
+        <div class ="boxText">
+            <img src="./assets/procurando.svg" alt="desenho-procurando" class = "procurando">
+            <p class ="subTexto"><strong class = "Destaque"> Nenhuma mensagem encontrada </strong><br>
+                Escreva algum texto para nós criptografarmos</p>
+            <textarea class="boxResult" id ="resultado" style="resize: none"></textarea>
+            <button onclick="copiar()" class ="copiar" >Copiar</button>
+            
+
+        </div>
+        
+    </main>
+    
+
+    <script src="./assets/app.js" defer></script>
+</body>
+</html>
